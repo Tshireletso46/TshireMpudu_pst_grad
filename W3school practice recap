@@ -1,4 +1,4 @@
-JavaScript Variables
+//JavaScript Variables
 //Exercise 1
 Create a variable called carName, assign the value Volvo to it.
 let carName = "Volvo";
@@ -26,7 +26,7 @@ On one single line, declare three variables with the following names and values:
 firstName = "John" lastName = "Doe" age = 35
 let firstName = "John", lastName = 'Doe' age = 35;
 
-JavaScript Operations
+//JavaScript Operations
 //Exercise 1
 Multiply 10 with 5, and alert the result:
 alert(10 * 5);
@@ -38,4 +38,81 @@ alert(10 / 2);
 //Exercise 3
 Alert the remainder when 15 is divided by 9.
 alert(15 % 9);
+
+//Exercise 4
+Use the correct assignment operator that will result in x being 15 (same as x = x + y).
+x = 10;
+y = 5;
+x += y;
+
+//Exercise 5
+Use the correct assignment operator that will result in x being 50 (same as x = x * y).
+x = 10;
+y = 5;
+x *= y;
+
+//Javascript Data Types
+//Exercise 1
+Use comments to describe the correct data type of the following variables:
+let length = 16;          // Number
+let lastName = "Johnson"; // String
+const x = {
+  firstName: "John",
+  lastName: "Doe"
+};                        // Object
+
+//JavaSvcript Functions
+//Exercise 1
+Execute the function named myFunction.
+function myFunction() {
+  alert("Hello World!");
+}
+myFunction();
+//Exercise 2
+Create a function called "myFunction".
+function myFunction() {
+ alert("Hello World!");
+}
+
+//Exercise 3
+Make the function return "Hello".
+function myFunction() {  
+return "Hello";
+}
+document.getElementById("demo").innerHTML = myFunction();
+
+//Exercise 4
+Make the function display "Hello" in the inner HTML of an element with the ID "demo".
+function myFunction() {
+  document.getElementById ("demo").innerHTML = "Hello";
+}
+
+//JavaScript Objects
+//Exercise 1
+Alert "John" by extracting information from the person object.
+const person = {
+  firstName: "John",
+  lastName: "Doe"
+};
+
+alert(person.firstName);
+
+//Exercise 2
+Add the following property and value to the person object: country: Norway.
+
+const person = {
+  firstName: "John",
+  lastName: "Doe"
+,
+country: "Norway"
+};
+
+//Exercise 3
+Create an object called person with name = John, age = 50.
+Then, access the object to alert("John is 50").
+
+const person = {
+  name: "John", age : 50};
+alert(person.name + " is " + person.age);
+
 
