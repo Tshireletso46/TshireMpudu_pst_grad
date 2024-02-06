@@ -1,0 +1,38 @@
+//JavaScript events
+//Excercise 1
+The <button> element should do something when someone clicks on it. Try to fix it!
+
+<button onclick ="alert('Hello')">Click me.</button>
+
+//Excercise 2
+When the button is clicked, the function "myFunction" should be executed.
+
+<button onclick ="myFunction()">Click me.</button>
+
+//Excercise 3
+The <div> element should turn red when someone moves the mouse over it.
+
+<div onmouseover="this.style.backgroundColor='red'">myDIV.</div>
+
+//JavaScript strings
+//Excercise 1
+Use the length property to alert the length of txt.
+
+let txt = "Hello World!";
+let x = txt.length;
+alert(x);
+
+//Excercise 2
+Use escape characters to alert We are "Vikings".
+
+let txt = "
+We are \"Vikings\"";
+alert(txt);
+
+//Excercise 3
+Concatenate the two strings to alert "Hello World!".
+
+let str1 = "Hello ";
+let str2 = "World!";
+alert(str1 + str2);
+
